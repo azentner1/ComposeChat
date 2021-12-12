@@ -10,7 +10,7 @@
 	- Flow
 
 ## Approach
-- Compose was used for UI layer - been trying it out lately so this was perfect to bump my skills a bit. 
+- Compose was used for UI layer. 
 - For Dependency Injecion, Hilt was used. The general patern is MVVM based, with DataSource/DAO, Repository, ViewModel and View layers and the communication is done 
     thru an Observer pattern or rather Flow library for Android. 
 - In the set up architecture the DataSource layer exposes storage/network operation, Repository layer is an intermediary layer where data can be mapped/changed in
