@@ -1,13 +1,13 @@
 # ComposeChat
 
 ## Stack
-	- Kotlin
-	- Compose
-	- MVVM
-	- Hilt
-	- Room
-	- Coroutines
-	- Flow
+- Kotlin
+- Compose
+- MVVM
+- Hilt
+- Room
+- Coroutines
+- Flow
 
 ## Approach
 - Compose was used for UI layer. 
@@ -25,4 +25,10 @@
 - Error handling. 
 - Prolly some bug fixes that I've missed. 
 - Extract resources (dimens).
+
+## Video
+
+
+https://user-images.githubusercontent.com/42001876/145730545-2f4e1657-9491-4d55-a80a-660a6659e02b.mp4
+
 
