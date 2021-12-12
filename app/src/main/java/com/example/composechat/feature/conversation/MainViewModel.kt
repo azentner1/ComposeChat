@@ -63,7 +63,7 @@ class MainViewModel @Inject constructor(
             messages[index].isMe != messages[index + 1].isMe -> {
                 true
             }
-            index != 0 && (messages[index].timestamp - messages[index - 1].timestamp < TIMESTAMP_DIFF_THRESHOLD_TAIL) -> {
+            index != 0 && (messages[index].timestamp - messages[index - 1].timestamp > TIMESTAMP_DIFF_THRESHOLD_TAIL) -> {
                 true
             }
             else -> {

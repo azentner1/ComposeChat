@@ -18,7 +18,7 @@ object MockMessageGenerator {
                     "Toast of London\n" +
                     "Bread\n" +
                     "Nunchucks\n" +
-                    "Xmas decorations\n"
+                    "Xmas decorations"
         ),
         Message(
             text = "Whats up?.\n" +
